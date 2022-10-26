@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  background-color: #f9f8f4;
+}
+
+.btn-first {
+  padding: 12px 24px !important;
+  border-radius: 8px;
+  background-color: #b4d51e;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-first:hover {
+  background-color: #a0c012;
+  color: rgb(228, 228, 228);
+}
+
+.btn-second {
+  padding: 12px 24px !important;
+  border-radius: 8px;
+  border: 1px solid #b4d51e;
+  color: #b4d51e;
+}
+.btn-second:hover {
+  background-color: #b4d51e;
+  color: #fff;
+  border: none;
+}
+
+.input-group {
+  width: 50%;
+}
+@media (max-width: 991.98px) {
+  .input-group {
+    width: 100%;
+  }
+}
+
+.navbar .navbar-brand {
+  color: #463c74;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.navbar .navbar-brand span {
+  color: #b4d51e;
+}
+.navbar .nav-item i {
+  font-size: 25px;
+}
+.navbar ::-moz-placeholder {
+  color: rgba(70, 60, 116, 0.4509803922);
+}
+.navbar :-ms-input-placeholder {
+  color: rgba(70, 60, 116, 0.4509803922);
+}
+.navbar ::placeholder {
+  color: rgba(70, 60, 116, 0.4509803922);
+}
+
+.menu-wrapper {
+  margin-top: 40px;
+}
+.menu-wrapper a {
+  margin: 0 25px;
+  color: rgba(70, 60, 116, 0.4509803922);
+}
+.menu-wrapper a.active {
+  color: #463c74;
+  border-bottom: 2px solid #b4d51e;
+  padding-bottom: 11px;
+  font-weight: bold;
+}
+
+.header {
+  margin-top: 40px;
+}
+@media (max-width: 767.98px) {
+  .header {
+    margin-top: 170px;
+  }
+}
+
+.popular {
+  margin-top: 150px;
+}
+.popular .title,
+.popular .fontsize {
+  font-size: 25px;
+  font-weight: 700;
+  color: #463c74;
+}
+@media (max-width: 575.98px) {
+  .popular .title,
+.popular .fontsize {
+    font-size: 16px;
+  }
+}
+.popular .rating i {
+  font-size: 20px;
+  color: #a0c012;
+}
+.popular .badge {
+  text-decoration: none;
+}
+.popular .btn-cart {
+  padding: 8px 10px;
+  border-radius: 8px;
+  background-color: #b4d51e;
+  color: #fff;
+}
+@media (max-width: 575.98px) {
+  .popular .btn-cart {
+    padding: 6px 8px;
+  }
+}
+.popular .btn-cart:hover {
+  background-color: #a0c012;
+}
+.popular .btn-cart i {
+  font-size: 30px;
+}
+@media (max-width: 575.98px) {
+  .popular .btn-cart i {
+    font-size: 16px;
+  }
+}
+.popular h1 {
+  color: #463c74;
+  font-weight: 700;
+  font-size: 32px;
+}
+.popular .img-fluid {
+  transition: transform 0.75s;
+  border-radius: 4px;
+}
+.popular .img-fluid:hover {
+  transform: scale(1.05);
+}
+
+.subscribe {
+  margin-top: 150px;
+}
+.subscribe .container {
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.subscribe .container .col-sub {
+  padding: 120px 0;
+}
+.subscribe h1 {
+  color: #463c74;
+  font-weight: 700;
+}
+.subscribe ::-moz-placeholder {
+  color: rgba(70, 60, 116, 0.4509803922);
+}
+.subscribe :-ms-input-placeholder {
+  color: rgba(70, 60, 116, 0.4509803922);
+}
+.subscribe ::placeholder {
+  color: rgba(70, 60, 116, 0.4509803922);
+}
+
+.testi {
+  margin-top: 150px;
+}
+.testi .card {
+  position: relative;
+  border: 2px solid #b4d51e;
+}
+.testi img {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.testi i {
+  position: absolute;
+  top: -40px;
+  right: 20px;
+  font-size: 70px;
+  color: #b4d51e;
+}
+.testi .fw-bold {
+  font-weight: 700 !important;
+}
+
+footer {
+  margin-top: 150px;
+  background-color: #fbf4e2;
+}
+footer a,
+footer p {
+  color: #828282;
+}
+footer .row-content .logo-brand {
+  font-size: 30px;
+  color: #463c74;
+}
+footer .row-content .logo-brand span {
+  color: #b4d51e;
+}
+footer .row-content h3 {
+  font-size: 25px;
+  color: #463c74;
+}
+footer .row-content a {
+  text-decoration: none;
+  color: #828282;
+}
+footer .row-copy {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+footer .row-copy i {
+  font-size: 35px;
+  color: #b4d51e;
+}/*# sourceMappingURL=main.css.map */
